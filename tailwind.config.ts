@@ -61,7 +61,22 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				terminal: {
+					bg: 'hsl(var(--terminal-bg))',
+					darker: 'hsl(var(--terminal-darker))',
+					border: 'hsl(var(--terminal-border))',
+					text: 'hsl(var(--terminal-text))',
+					bright: 'hsl(var(--terminal-bright))',
+					muted: 'hsl(var(--terminal-muted))',
+					success: 'hsl(var(--terminal-success))',
+					info: 'hsl(var(--terminal-info))',
+					warning: 'hsl(var(--terminal-warning))',
+					error: 'hsl(var(--terminal-error))'
 				}
+			},
+			fontFamily: {
+				mono: ['IBM Plex Mono', 'Courier New', 'monospace']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +99,22 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'fade-in': {
+					from: {
+						opacity: '0',
+						transform: 'translateY(10px)'
+					},
+					to: {
+						opacity: '1',
+						transform: 'translateY(0)'
+					}
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'fade-in': 'fade-in 0.3s ease-out'
 			}
 		}
 	},

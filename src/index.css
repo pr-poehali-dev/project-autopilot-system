@@ -49,6 +49,17 @@
     --sidebar-border: 220 13% 91%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
+
+    --terminal-bg: 210 14% 5%;
+    --terminal-darker: 210 15% 8%;
+    --terminal-border: 210 10% 18%;
+    --terminal-text: 210 8% 78%;
+    --terminal-bright: 210 10% 98%;
+    --terminal-muted: 210 8% 45%;
+    --terminal-success: 142 76% 50%;
+    --terminal-info: 189 100% 50%;
+    --terminal-warning: 45 100% 50%;
+    --terminal-error: 0 100% 60%;
   }
 
   .dark {
